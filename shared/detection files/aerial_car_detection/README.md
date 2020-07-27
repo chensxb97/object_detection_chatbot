@@ -6,3 +6,6 @@ You can download the model at https://drive.google.com/file/d/1UWzucDKuuvtbyTJDj
 
 python detect_car.py -i [IMAGE PATH]
 
+## Original Repo
+git clone https://github.com/Andhrimnirr/Aerial-Object-Detection-With-Yolo
+
