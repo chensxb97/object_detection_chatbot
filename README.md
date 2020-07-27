@@ -127,7 +127,7 @@ The following aspects can be reviewed to increase the accuracy of the detection 
 
 The Yolov3 detection algorithm utilised in this project are best used for specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
 
-Throughout my research, I discovered that using homography such as OpenCV's [Perspective Transform] could be used to resolve this issue. Due to its high complexity and the lack of time, I was unable to achieve this objective. Instead, I managed to transform detected video frames to make them easier to analyse social distancing violations. Below is an example of this execution.
+Throughout my research, I discovered that using homography such as OpenCV's [Perspective Transform](https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/) could be used to resolve this issue. Due to its high complexity and the lack of time, I was unable to achieve this objective. Instead, I managed to transform detected video frames to make them easier to analyse social distancing violations. Below is an example of this execution.
 
 ![Screenshot](Screenshots/image21.jpg)
 
