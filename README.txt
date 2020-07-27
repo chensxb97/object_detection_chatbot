@@ -5,7 +5,7 @@ This directory contains files and folders to set up a local environment to run t
 shared* is the database that holds the pre-processed images that will be utilised by the chatbot. It also contains a folder of detection algorithms 
 with instructions on how to use them.
 
-ngrok* is a tunneling tool to test the chatbot api on the webexteams user interface.
+requirements.txt* show the list of packages to be installed.
 
 test.py* is the chatbot python file.
 
