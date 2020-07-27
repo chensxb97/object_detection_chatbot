@@ -1,9 +1,9 @@
 ## USAGE
 
-## Download model at **https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
+You can download model at **https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
  
 ## Vehicle Detection on aerial images
 
 **python detect_car.py -i [IMAGE PATH]** 
 
-**OUTPUT: Detected image + Cluster Diagram 
+OUTPUT: Detected image + Cluster Diagram 
