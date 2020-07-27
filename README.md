@@ -89,7 +89,7 @@ Example object detection feature response:
 
 ![Screenshot](Screenshots/comparecard.png)
 
-*Detecting object: **Crowd** in the location: **Shibuya**
+*Detecting object: **Crowd** in the location: **Shibuya**.*
 
 ### Aerial Object detection feature
 The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown 
@@ -102,5 +102,5 @@ Example of aerial object detection feature response:
 
 ![Screenshot](Screenshots/comparecard.png)
 
-*Detecting object: planes in the location: Haneda.
+*Detecting object: **planes** in the location: **Haneda**.*
 
