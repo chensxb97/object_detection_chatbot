@@ -1,3 +1,5 @@
+### How this folder was made
+
 1) Extract raw image frames from video using video_to_image.py
 
 2) Perform detection on start and end frames using yolo_vehicle.py to generate the 2 detected images and cluster plots
