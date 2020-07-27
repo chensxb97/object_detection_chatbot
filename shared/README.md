@@ -1,17 +1,21 @@
 This folder contains the necessary detection files and data to pre-process images and videos prior to running the chatbot.
 
 **Detection files**
+
 ***Detection algorithms***
-aerial_plane_detection
-aerial_car_detection	
-traffic_object_detection
+
+1. aerial_plane_detection
+2. aerial_car_detection	
+3. traffic_object_detection
 
 ***Image_processing***
-concatenate_image.py
-resize_image.py
-video_to_image.py
+
+1. concatenate_image.py
+2. resize_image.py
+3. video_to_image.py
 	
 ***Images***
+
 1. Coronavirus (COVID-19) statistics data https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic/
 2. Plane passenger traffic data https://blueswandaily.com/data-spotlight-tokyo-haneda-airport/
 3. Traffic congestion data https://www.tomtom.com/en_gb/traffic-index/tokyo-traffic/
