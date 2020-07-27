@@ -77,7 +77,7 @@ We will cover the additional 2 features here:
 * Object detection feature
 * Aerial object detection feature
 
-The first three features were covered previously [here](https://github.com/shawnlim97/CiscoCovidBot-Final-)
+The first three features were previously covered [here](https://github.com/shawnlim97/CiscoCovidBot-Final-).
 ### Object detection feature
 The **Object detection feature** is activated using the */detection* keyword command with the card as shown. 
 
@@ -118,7 +118,7 @@ Example of aerial **planes** detection in **Haneda** response:
 
 ## Limitations and Future Improvements
 
-Due to the shortage of time, the current bot is not built to perform detections automatically on new images. This is currently a proof of concept done using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
+Due to the shortage of time, the current bot is not built to perform detections automatically on new images. Currently, this is a proof of concept demonstrated using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
 
 ### Accuracy
 The following aspects can be reviewed to increase the accuracy of the detection algorithms on traffic-camera view images.
