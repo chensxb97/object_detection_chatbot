@@ -8,8 +8,6 @@
 
 **python detect_plane.py "models/model.tfl" "[Image Path]"**
 
-OUTPUT: Detected image + Cluster Diagram 
-
 3. For information on training the model, you may clone the original Github Repository with additional instructions
 
 **git clone https://github.com/rhammell/planesnet-detector.git**
