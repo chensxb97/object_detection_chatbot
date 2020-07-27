@@ -1,7 +1,7 @@
 ## Object_detection_chatbot
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project involves using object detection algorithms to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact caused by Covid-19. Pre-processed images are integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights.
+This project involves using object detection algorithms to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact caused by Covid-19. A database of pre-processed images is integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights.
 
 ## Table of Content
 - [Motivation](#motivation)
@@ -15,8 +15,8 @@ This project involves using object detection algorithms to analyse the changes i
   * [Object detection feature](#object-detection-feature)
   * [Aerial object detection feature](#aerial-object-detection-feature)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
-  * [Real-time data](#real-time-data)
-  * [Accuracy and speed](#accuracy)
+  * [Accuracy](#accuracy)
+  * [Speed] (#speed)
   * [Direct-integration of detection algorithms](#integration)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -122,13 +122,13 @@ Example of aerial object detection feature response:
 
 ## Limitations and Future Improvements
 
-Due to the shortage of time, the current bot is not built to perform detections automatically on new images. This is currently a proof of concept done using pre-processed images. The following areas can be improved or pursued to improve the useability of the object detection features. 
+Due to the shortage of time, the current bot is not built to perform detections automatically on new images. This is currently a proof of concept done using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
 
-### Real-time data
+### Accuracy
 
 Description
 
-### Accuracy and speed
+### Speed
 
 Description
 
