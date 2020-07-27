@@ -10,7 +10,7 @@ requirements.txt* show the list of packages to be installed.
 test.py* is the chatbot python file.
 
 
-1. Clone repo
+1. Clone this repo
 
 - git clone 
 
