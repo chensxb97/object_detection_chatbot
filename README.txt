@@ -12,7 +12,7 @@ test.py* is the chatbot python file.
 
 1. Clone this repo
 
-- git clone 
+- git clone https://github.com/chensxb97/object_detection_chatbot.git
 
 2. Open terminal and install dependencies
 
