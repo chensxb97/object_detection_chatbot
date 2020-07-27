@@ -26,7 +26,7 @@ This project involves using object detection algorithms to analyse the changes i
 Given the impact this recent pandemic has had on our world, we decided to create a chatbot to help both the common public and decision makers alike through the features we have implemented.
 
 ## Installation
-Install the dependencies and devDependencies and start the server. I'll be using a linux OS but a windows one will work fine with some tweaks as well. The following are items this documentation assumes you already have installed: 
+The following dependencies need to be installed before running the chatbot. I managed to execute the chatbot using the Anaconda Prompt on Windows OS, but feel free to use Linux/Ubuntu whichever you prefer. The following are items this documentation assumes you already have installed: 
 - virtualenv 
 - python3 
 - [ngrok](https://ngrok.com/download)
@@ -60,10 +60,15 @@ export PORT=5000
 ```
 Finally, take your bot's access token and place it in your environment variable as WEBEX_TEAMS_ACCESS_TOKEN.
 
-### Step 5: Run the bot
-Please read and download the necessary packages from [requirements.txt](https://github.com/chensxb97/object_detection_chatbot/blob/master/requirements.txt) file before executing the bot.
+### Step 5: Requirements.txt
 
-We can now run the bot. For this project the bot code is provided under [test.py](https://github.com/chensxb97/object_detection_chatbot/blob/master/test.py). 
+**pip install -r requirements.txt**
+
+### Step 6: Run bot
+
+We can now run the bot.
+
+**python test.py**
 
 ```sh
 python ./test.py
