@@ -2,7 +2,7 @@
 
 **1. Download pre-trained yolov3 weights** 
 
-Download [here](https://pjreddie.com/media/files/yolov3.weights) and store it as a *WEIGHTS* file in yolo-coco folder
+Download [here](https://pjreddie.com/media/files/yolov3.weights) and store it as a *WEIGHTS* file in ***yolo-coco***
 
 **2. Social-distancing Detection on traffic camera videos**
 
