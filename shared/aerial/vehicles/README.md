@@ -1,4 +1,4 @@
-## USAGE
+### How this folder was made
 
 1) Parse raw images through detect_car.py to generate the detected images and cluster plots
 
