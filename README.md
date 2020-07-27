@@ -125,14 +125,36 @@ Example of aerial object detection feature response:
 Due to the shortage of time, the current bot is not built to perform detections automatically on new images. This is currently a proof of concept done using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
 
 ### Accuracy
+The following aspects can be reviewed to increase the accuracy of the detection algorithms on traffic-camera view images.
 
-Description
+#### Limited viewing angles and zoom
+
+The Yolov3 detection algorithm utilised in this project are best used for specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
+
+Throughout my research, I discovered that using homography such as OpenCV's [Perspective Transform] could be used to resolve this issue. Due to its high complexity and the lack of time, I was unable to achieve this objective. 
+
+#### False Negatives
+
+The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects when there is severe overcrowding.
+
+Below are some examples that illustrate his problem. Re-training the model could help to solve the issue of missing detections/false negatives.
 
 ### Speed
 
-Description
+The chatbot currently takes between 40 to 50 seconds to generate the response cards. This is due to the limitation of the webexteamssdk api.
+
+The speed of the response depends on the number of pixels required to be embedded on the response card. Thus, there is a need to balance between providing a fast response and having sufficient visualisations to gain understandable insights on the impact caused by Covid-19.
 
 ### Direct integration of detection algorithms
 
-Description
+Integrating the detection algorithms is a difficult task for the following reasons. 
+
+#### Slower response time 
+
+Time is required to pre-process raw images and generate the detections and supporting diagrams.
+
+#### A robust architecture is needed to support multiple detection algorithms
+
+No single detection algorithm is able to perform detections on all types of images accurately. Due to the high complexity, I was unable to merge the detection algorithms or embed them in the main chatbot python file. More research has to be done to determine the feasibility of this approach.
+
 
