@@ -1,7 +1,7 @@
 ## Object_detection_chatbot
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project involves using object detection algorithms to analyse the changes in crowd, vehicle and flight traffic on traffic and aerial images to understand the urban impact caused by Covid-19. Pre-processed images are integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights.
+This project involves using object detection algorithms to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact caused by Covid-19. Pre-processed images are integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights.
 
 ## Table of Content
 - [Motivation](#motivation)
@@ -79,3 +79,28 @@ We will cover the additional 2 features here:
 
 The first three features were covered previously [here](https://github.com/shawnlim97/CiscoCovidBot-Final-)
 ### Object detection feature
+The **Object detection feature** is activated using the /detection keyword command with the card as shown 
+
+![Screenshot](Screenshots/compare_response.png)
+
+Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
+
+Example object detection feature response:
+
+![Screenshot](Screenshots/comparecard.png)
+
+*Detecting object: **Crowd** in the location: **Shibuya**
+
+### Aerial Object detection feature
+The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown 
+
+![Screenshot](Screenshots/compare_response.png)
+
+Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
+
+Example of aerial object detection feature response:
+
+![Screenshot](Screenshots/comparecard.png)
+
+*Detecting object: planes in the location: Haneda.
+
