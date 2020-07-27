@@ -12,11 +12,11 @@ test.py* is the chatbot python file.
 
 1. Clone this repo
 
-- git clone https://github.com/chensxb97/object_detection_chatbot.git
+*** git clone https://github.com/chensxb97/object_detection_chatbot.git ***
 
 2. Open terminal and install dependencies
 
-- pip install -r requirements.txt
+*** pip install -r requirements.txt ***
 
 3. Install ngrok and run it on a separate terminal
 
@@ -30,4 +30,4 @@ WEBHOOK_URL = [Copied previously in 3.]
 
 5. Run chatbot python file
 
-- 'python test.py'
+*** python test.py ***
