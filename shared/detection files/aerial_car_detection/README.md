@@ -4,6 +4,6 @@ USAGE
  
 2. Vehicle Detection on aerial images
 
-*** python detect_car.py -i [IMAGE PATH] *** 
+***python detect_car.py -i [IMAGE PATH]*** 
 
 OUTPUT: Detected image + Cluster Diagram 
