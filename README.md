@@ -16,8 +16,8 @@ This project involves using object detection algorithms to analyse the changes i
   * [Aerial object detection feature](#aerial-object-detection-feature)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
   * [Real-time data](#real-time-data)
+  * [Accuracy and speed](#accuracy)
   * [Direct-integration of detection algorithms](#integration)
-  * [Accuracy](#accuracy)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -132,7 +132,7 @@ Description
 
 Description
 
-### Direct integration of detection algorithms with the Webexteams API
+### Direct integration of detection algorithms
 
 Description
 
