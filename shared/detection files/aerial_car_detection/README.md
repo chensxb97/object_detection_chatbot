@@ -1,6 +1,6 @@
 ## USAGE
 
-You can download model at **https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
+You can download model at https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
  
 ## Vehicle Detection on aerial images
 
