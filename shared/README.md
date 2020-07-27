@@ -45,7 +45,7 @@ Secondary data on Covid-19, road traffic congestion and flight passenger traffic
 
 ## CREDITS
 
-***YOLOV3 by Adrian Rosebruck, Pyimagesearch***
+***YOLOV3 by Adrian Rosebruck***
 1. Yolo Object Detection with OpenCV
 
 https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
