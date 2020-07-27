@@ -89,7 +89,15 @@ Example object detection feature response:
 
 ![Screenshot](Screenshots/comparecard.png)
 
-*Detecting object: **Crowd** in the location: **Shibuya**.*
+*Detecting object: **crowd** in the location: **Shibuya**.*
+
+![Screenshot](Screenshots/comparecard.png)
+
+*Cluster Analysis of crowd detections*
+
+![Screenshot](Screenshots/comparecard.png)
+
+*Social distancing and Covid-19 data analysis*
 
 ### Aerial Object detection feature
 The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown 
@@ -103,4 +111,28 @@ Example of aerial object detection feature response:
 ![Screenshot](Screenshots/comparecard.png)
 
 *Detecting object: **planes** in the location: **Haneda**.*
+
+![Screenshot](Miscellaneous/staticimage.png)
+
+*Cluster Analysis of plane detections*
+
+![Screenshot](Screenshots/comparecard.png)
+
+*Passenger traffic and Covid-19 data analysis*
+
+## Limitations and Future Improvements
+
+Due to the shortage of time, the current bot is not built to perform detections automatically on new images. This is currently a proof of concept done using pre-processed images. The following areas can be improved or pursued to improve the useability of the object detection features. 
+
+### Real-time data
+
+Description
+
+### Accuracy and speed
+
+Description
+
+### Direct integration of detection algorithms with the Webexteams API
+
+Description
 
