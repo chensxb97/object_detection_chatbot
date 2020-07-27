@@ -58,7 +58,7 @@ https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
 
 1. Planesnet-detector, https://github.com/rhammell/planesnet-detector
 
-***Andhrimnirr@github.com***
+***Ibrahim, Andhrimnirr@github.com***
 
 1. Pre-trained weights https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
 
