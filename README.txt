@@ -2,8 +2,7 @@ Object Detection Chatbot
 
 This directory contains files and folders to set up a local environment to run the object detection chatbot using webexteamssdk.
 
-shared* is the database that holds the pre-processed images that will be utilised by the chatbot. It also contains a folder of detection algorithms 
-with instructions on how to use them.
+shared* is the database that holds the pre-processed images that will be utilised by the chatbot. It also contains a separate folder of detection algorithms that were used to generate the resulting images.
 
 requirements.txt* shows the list of packages to be installed.
 
@@ -12,11 +11,11 @@ test.py* is the main chatbot python file.
 
 1. Clone this repo
 
-*** git clone https://github.com/chensxb97/object_detection_chatbot.git ***
+** git clone https://github.com/chensxb97/object_detection_chatbot.git **
 
 2. Open terminal and install dependencies
 
-*** pip install -r requirements.txt ***
+** pip install -r requirements.txt **
 
 3. Install ngrok and run it on a separate terminal
 
@@ -30,4 +29,4 @@ WEBHOOK_URL = [Copied previously in 3.]
 
 5. Run chatbot python file
 
-*** python test.py ***
+** python test.py **
