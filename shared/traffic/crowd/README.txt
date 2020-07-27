@@ -4,7 +4,7 @@
 
 3) Use concatenate_image.py on the two detected images to create combined.jpg
 
-4) Perform detection on the raw video using social_distance2.py to generate detection summary analysis plot
+4) Perform detection on the raw video using social_distance.py to generate detection summary analysis plot
 
 5) Extract frames from social distancing analysis video using video_to_image.py and store them in detected_images
 
