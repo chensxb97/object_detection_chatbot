@@ -1,6 +1,6 @@
 ## USAGE
 
-You can download the model at https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
+You can download the pre-trained weights at https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
  
 **1. Vehicle Detection on aerial images**
 
