@@ -72,14 +72,14 @@ We can now run the bot.
 ```sh
 python ./test.py
 ```
-## Features!
+## Features
 We will cover the additional 2 features here:
 * Object detection feature
 * Aerial object detection feature
 
 The first three features were covered previously [here](https://github.com/shawnlim97/CiscoCovidBot-Final-)
 ### Object detection feature
-The **Object detection feature** is activated using the /detection keyword command with the card as shown. 
+The **Object detection feature** is activated using the */detection* keyword command with the card as shown. 
 
 ![Screenshot](Screenshots/object_request.png)
 
@@ -98,7 +98,7 @@ Example **crowd** detection in **Shibuya** response:
 *Social-distancing and Covid-19 data analysis*
 
 ### Aerial Object detection feature
-The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown. 
+The **aerial detection feature** is activated using the */aerial-detection* keyword command with the card as shown. 
 
 ![Screenshot](Screenshots/aerial_request.png)
 
