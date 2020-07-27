@@ -1,5 +1,7 @@
 Object Detection Chatbot
 
+This is a second parter
+
 This directory contains files and folders to set up a local environment to run the object detection chatbot using webexteamssdk.
 
 shared* is the database that holds the pre-processed images that will be utilised by the chatbot. It also contains a separate folder of detection algorithms that were used to generate the resulting images.
