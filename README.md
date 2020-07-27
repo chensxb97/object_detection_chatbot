@@ -16,7 +16,7 @@ This project involves using object detection algorithms to analyse the changes i
   * [Aerial object detection feature](#aerial-object-detection-feature)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
   * [Accuracy](#accuracy)
-  * [Speed] (#speed)
+  * [Speed](#speed)
   * [Direct-integration of detection algorithms](#integration)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
