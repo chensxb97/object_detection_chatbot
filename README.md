@@ -97,8 +97,8 @@ Example **crowd** detection in **Shibuya** response:
 
 *Social-distancing and Covid-19 data analysis*
 
-### Aerial Object detection feature
-The **aerial detection feature** is activated using the */aerial-detection* keyword command with the card as shown. 
+### Aerial object detection feature
+The **Aerial object detection feature** is activated using the */aerial-detection* keyword command with the card as shown. 
 
 ![Screenshot](Screenshots/aerial_request.png)
 
