@@ -1,4 +1,4 @@
-#### How this folder was made
+### How this folder was made
 
 1) Extract raw image frames from video using video_to_image.py
 
