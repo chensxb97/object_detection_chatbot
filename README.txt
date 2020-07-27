@@ -18,7 +18,7 @@ test.py* is the chatbot python file.
 
 - pip install -r requirements.txt
 
-3. Run ngrok on a separate terminal
+3. Install ngrok and run it on a separate terminal
 
 - Copy the url under 'Forwarding', which will be stored as WEBHOOK_URL in environment variables
 
