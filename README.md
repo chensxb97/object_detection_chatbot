@@ -79,38 +79,34 @@ We will cover the additional 2 features here:
 
 The first three features were covered previously [here](https://github.com/shawnlim97/CiscoCovidBot-Final-)
 ### Object detection feature
-The **Object detection feature** is activated using the /detection keyword command with the card as shown 
+The **Object detection feature** is activated using the /detection keyword command with the card as shown. 
 
 ![Screenshot](Screenshots/object_request.png)
 
 Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
 
-Example object detection feature response:
+Example **crowd** detection in **Shibuya** response:
 
 ![Screenshot](Screenshots/object_response.png)
 
-*Detecting object: **crowd** in the location: **Shibuya**.*
-
 ![Screenshot](Screenshots/crowd_cluster.png)
 
-*Cluster Analysis of crowd detections*
+*Cluster analysis of crowd detections*
 
 ![Screenshot](Screenshots/crowd_analysis.png)
 
-*Social distancing and Covid-19 data analysis*
+*Social-distancing and Covid-19 data analysis*
 
 ### Aerial Object detection feature
-The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown 
+The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown. 
 
 ![Screenshot](Screenshots/aerial_request.png)
 
 Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
 
-Example of aerial object detection feature response:
+Example of aerial **planes** detection in **Haneda** response:
 
 ![Screenshot](Screenshots/aerial_response.png)
-
-*Detecting object: **planes** in the location: **Haneda**.*
 
 ![Screenshot](Screenshots/plane_cluster.png)
 
@@ -127,7 +123,7 @@ Due to the shortage of time, the current bot is not built to perform detections 
 ### Accuracy
 The following aspects can be reviewed to increase the accuracy of the detection algorithms on traffic-camera view images.
 
-#### Limited viewing angles and zoom
+#### 1. Limited viewing angles and zoom
 
 The Yolov3 detection algorithm utilised in this project are best used for specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
 
@@ -135,9 +131,9 @@ Throughout my research, I discovered that using homography such as OpenCV's [Per
 
 ![Screenshot](Screenshots/image21.jpg)
 
-*An attempt to transform the video frame (left) to a more analytical perspective (right) where each overlapping circle indicates a violation of social distancing 
+*An attempt to transform the video frame (left) to a more analytical perspective (right) where each overlapping circle indicates a violation of social distancing.* 
 
-#### False Negatives
+#### 2. False Negatives
 
 The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects whenever there is severe overcrowding.
 
@@ -147,7 +143,7 @@ Below are some examples that illustrate this problem. Re-training the model with
 
 ![Screenshot](Screenshots/image20.jpg)
 
-*False negatives observed due to the problem of overcrowding
+*False negatives are observed due to the problem of overcrowding.*
 
 ### Speed
 
@@ -159,11 +155,11 @@ The speed of the response depends on the number of pixels required to be embedde
 
 Integrating the detection algorithms is a difficult task for the following reasons. 
 
-#### Slower response time 
+#### 1. Slower response time 
 
 Time is required to pre-process raw images and generate the detections and supporting diagrams.
 
-#### A robust architecture is needed to support multiple detection algorithms
+#### 2. A robust architecture is needed to support multiple detection algorithms
 
 No single detection algorithm is able to perform detections on all types of images accurately. Due to the high complexity, I was unable to merge the detection algorithms or embed them in the main chatbot python file. More research has to be done to determine the feasibility of this approach.
 
