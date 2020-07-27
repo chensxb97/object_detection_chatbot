@@ -81,42 +81,42 @@ The first three features were covered previously [here](https://github.com/shawn
 ### Object detection feature
 The **Object detection feature** is activated using the /detection keyword command with the card as shown 
 
-![Screenshot](Screenshots/compare_response.png)
+![Screenshot](Screenshots/object_request.png)
 
 Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
 
 Example object detection feature response:
 
-![Screenshot](Screenshots/comparecard.png)
+![Screenshot](Screenshots/object_response.png)
 
 *Detecting object: **crowd** in the location: **Shibuya**.*
 
-![Screenshot](Screenshots/comparecard.png)
+![Screenshot](Screenshots/crowd_cluster.png)
 
 *Cluster Analysis of crowd detections*
 
-![Screenshot](Screenshots/comparecard.png)
+![Screenshot](Screenshots/crowd_analysis.png)
 
 *Social distancing and Covid-19 data analysis*
 
 ### Aerial Object detection feature
 The **aerial detection feature** is activated using the /aerial-detection keyword command with the card as shown 
 
-![Screenshot](Screenshots/compare_response.png)
+![Screenshot](Screenshots/aerial_request.png)
 
 Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
 
 Example of aerial object detection feature response:
 
-![Screenshot](Screenshots/comparecard.png)
+![Screenshot](Screenshots/aerial_response.png)
 
 *Detecting object: **planes** in the location: **Haneda**.*
 
-![Screenshot](Miscellaneous/staticimage.png)
+![Screenshot](Screenshots/plane_cluster.png)
 
 *Cluster Analysis of plane detections*
 
-![Screenshot](Screenshots/comparecard.png)
+![Screenshot](Screenshots/plane_analysis.png)
 
 *Passenger traffic and Covid-19 data analysis*
 
@@ -131,19 +131,23 @@ The following aspects can be reviewed to increase the accuracy of the detection 
 
 The Yolov3 detection algorithm utilised in this project are best used for specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
 
-Throughout my research, I discovered that using homography such as OpenCV's [Perspective Transform] could be used to resolve this issue. Due to its high complexity and the lack of time, I was unable to achieve this objective. 
+Throughout my research, I discovered that using homography such as OpenCV's [Perspective Transform] could be used to resolve this issue. Due to its high complexity and the lack of time, I was unable to achieve this objective. Instead, I managed to transform detected video frames to make them easier to analyse social distancing violations. Below is an example of this execution.
 
-![Screenshot](Screenshots/compare_response.png)
+![Screenshot](Screenshots/image21.jpg)
+
+*An attempt to transform the video frame (left) to a more analytical perspective (right) where each overlapping circle indicates a violation of social distancing 
 
 #### False Negatives
 
-The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects when there is severe overcrowding.
+The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects whenever there is severe overcrowding.
 
-Below are some examples that illustrate his problem. Re-training the model could help to solve the issue of missing detections/false negatives.
+Below are some examples that illustrate this problem. Re-training the model with images of similar nature could help to solve the issue of missing detections/false negatives.
 
-![Screenshot](Screenshots/compare_response.png)
+![Screenshot](Screenshots/image7.jpg)
 
-![Screenshot](Screenshots/compare_response.png)
+![Screenshot](Screenshots/image20.jpg)
+
+*False negatives observed due to the problem of overcrowding
 
 ### Speed
 
