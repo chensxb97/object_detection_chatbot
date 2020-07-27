@@ -133,11 +133,17 @@ The Yolov3 detection algorithm utilised in this project are best used for specif
 
 Throughout my research, I discovered that using homography such as OpenCV's [Perspective Transform] could be used to resolve this issue. Due to its high complexity and the lack of time, I was unable to achieve this objective. 
 
+![Screenshot](Screenshots/compare_response.png)
+
 #### False Negatives
 
 The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects when there is severe overcrowding.
 
 Below are some examples that illustrate his problem. Re-training the model could help to solve the issue of missing detections/false negatives.
+
+![Screenshot](Screenshots/compare_response.png)
+
+![Screenshot](Screenshots/compare_response.png)
 
 ### Speed
 
