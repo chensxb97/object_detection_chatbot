@@ -5,3 +5,4 @@ You can download the model at https://drive.google.com/file/d/1UWzucDKuuvtbyTJDj
 ## Vehicle Detection on aerial images
 
 **python detect_car.py -i [IMAGE PATH]**
+
