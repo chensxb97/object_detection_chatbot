@@ -147,7 +147,7 @@ Below are some examples that illustrate this problem. Re-training the model with
 
 ### Speed
 
-The chatbot currently takes between 40 to 50 seconds to generate the response cards. This is due to the limitation of the webexteamssdk api.
+The chatbot currently takes between 40 to 50 seconds to generate the response. This is because the process mainly involves embedding 8-10 images from the local PC to the output response card.
 
 The speed of the response depends on the number of pixels required to be embedded on the response card. Thus, there is a need to balance between providing a fast response and having sufficient visualisations to gain understandable insights on the impact caused by Covid-19.
 
@@ -157,7 +157,7 @@ Integrating the detection algorithms is a difficult task for the following reaso
 
 #### 1. Slower response time 
 
-Time is required to pre-process raw images and generate the detections and supporting diagrams.
+In addition to responding to the card requests, direct integration will result in a longer time needed to pre-process raw images, and generate the detections and supporting diagrams.
 
 #### 2. A robust architecture is needed to support multiple detection algorithms
 
