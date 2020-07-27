@@ -1,6 +1,7 @@
 USAGE
 
 1. Install required modules
+
 *** pip install -r requirements.txt ***
 
 2. Plane detection on satellite images
