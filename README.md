@@ -12,7 +12,7 @@ This project involves using object detection to analyse the changes in crowd, ve
   * [Step 4: Setup ngrok and env variables](#step-4--setup-ngrok-and-env-variables)
   * [Step 5: Other requirements](#step-5--other-requirements)
   * [Step 6: Run the bot](#step-6--run-the-bot)
-- [Features](#features-)
+- [Features](#Features)
   * [Object detection feature](#object-detection-feature)
   * [Aerial object detection feature](#aerial-object-detection-feature)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
