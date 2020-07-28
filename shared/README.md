@@ -3,13 +3,13 @@ This folder contains the necessary detection files and data to pre-process image
 
 ### Detection files
 
-**Detection algorithms**
+***Detection algorithms***
 
 1. aerial_plane_detection
 2. aerial_car_detection	
 3. traffic_object_detection
 
-**Image_processing**
+***Image_processing***
 
 1. concatenate_image.py
 2. resize_image.py
