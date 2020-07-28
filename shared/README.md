@@ -1,7 +1,7 @@
 ## USAGE
 This folder contains the necessary detection files and data to pre-process images and videos prior to running the chatbot.
 
-### Detection files
+## Detection files
 
 #### Detection algorithms
 
@@ -31,36 +31,14 @@ This folder contains the necessary detection files and data to pre-process image
 
 2. crossing_Shibuya.webm https://www.shutterstock.com/video/clip-1034411039-shibuya-tokyo-japan---aerial-view-pedestrians/
 
-### aerial
+## aerial
 
 Processed data to demonstrate Aerial Object Detection
 
-### traffic
+## traffic
 
 Processed data to demonstrate Traffic Object Detection
 
-### data
+## data
 
 Secondary data on Covid-19, road traffic congestion and flight passenger traffic
-
-## Credits
-
-**YOLOV3 by Adrian Rosebruck**
-1. Yolo Object Detection with OpenCV
-
-https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
-
-2. OpenCV Social Distancing Detector
-
-https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
-
-**Bob Hammell, rhammell@github.com**
-
-1. Planesnet-detector, https://github.com/rhammell/planesnet-detector
-
-**Ibrahim, Andhrimnirr@github.com**
-
-1. Pre-trained weights https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
-
-2. Aerial-Object-Detection-With-YOLO 
-https://github.com/Andhrimnirr/Aerial-Object-Detection-With-Yolo
