@@ -15,7 +15,7 @@ This folder contains the necessary detection files and data to pre-process image
 2. resize_image.py
 3. video_to_image.py
 	
-### images
+#### images
 
 1. Coronavirus (COVID-19) statistics data https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic/
 2. Plane passenger traffic data https://blueswandaily.com/data-spotlight-tokyo-haneda-airport/
@@ -25,7 +25,7 @@ This folder contains the necessary detection files and data to pre-process image
 6. haneda1.jpg https://www.axelspace.com/info/news/20190311/press_20190311/
 7. haneda2.png, Screenshot from https://code.earthengine.google.com/, Location: Haneda Airport
 
-### videos
+#### videos
 
 1. highway_Shibuya.mp4 https://depositphotos.com/206670318/stock-video-aerial-view-highway-shibuya-tokyo.html/
 
