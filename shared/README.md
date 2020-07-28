@@ -1,7 +1,7 @@
 ## USAGE
 This folder contains the necessary detection files and data to pre-process images and videos prior to running the chatbot.
 
-## Detection files
+## Detection_files
 
 #### Detection algorithms
 
