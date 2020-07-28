@@ -81,11 +81,11 @@ We will cover these additional features:
 
 The first three features were previously covered [here](https://github.com/shawnlim97/CiscoCovidBot-Final-).
 ### Object detection feature
-The **Object detection feature** is activated using the */detection* keyword command with the card as shown. 
+The **Object detection feature** is activated using the ***/detection*** keyword command with the card as shown. 
 
 ![Screenshot](Screenshots/object_request.png)
 
-Once submitted, the bot will access [shared](shared) to obtain the necessary pre-processed images and secondary data for analysis.
+Once submitted, the bot will access [shared](shared) to obtain the necessary pre-processed images and secondary data for analysis. These information will be organised in a response card which will be sent to the user.
 
 Example **crowd** detection in **Shibuya** response:
 
@@ -104,7 +104,7 @@ The **Aerial object detection feature** is activated using the */aerial-detectio
 
 ![Screenshot](Screenshots/aerial_request.png)
 
-Once submitted, the bot will access [shared](shared) to obtain the necessary pre-processed images and secondary data for analysis.
+Likewise, upon submission, the bot will access [shared](shared) to obtain the necessary pre-processed images and secondary data which will be re-packaged into a response card to the user.
 
 Example of aerial **planes** detection in **Haneda** response:
 
@@ -120,16 +120,16 @@ Example of aerial **planes** detection in **Haneda** response:
 
 ## Limitations and Future Improvements
 
-Due to the shortage of time, the current bot is not built to perform detections automatically on new images. Currently, this is a proof of concept demonstrated using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
+Due to the shortage of time, the current bot is not built to run detections automatically on new images. Currently, this is a proof of concept demonstrated using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
 
 ### Accuracy
 The following aspects can be reviewed to increase the accuracy of the detection algorithms on traffic-camera view images.
 
 #### 1. Limited viewing angles and zoom
 
-The Yolov3 detection algorithm utilised in this project are best used for specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
+The Yolov3 detection algorithm utilised in this project is best used for images that are framed at specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
 
-During my research, I discovered that using homography such as OpenCV's [Perspective Transform](https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/) could resolve this issue. However, due to its high complexity and the lack of time, I was unable to achieve this objective. Instead, I managed to transform detected video frames to make them easier to analyse social distancing violations. Below is an example of this execution.
+During my research, I discovered that using homography such as OpenCV's [Perspective Transform](https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/) could resolve this issue. However, due to its high complexity and the lack of time, I was unable to achieve this objective. Instead, I managed to transform detected video frames to make them easier to analyse social distancing violations.
 
 ![Screenshot](Screenshots/image21.jpg)
 
@@ -149,17 +149,17 @@ Below are some examples that illustrate this problem. Re-training the model with
 
 ### Speed
 
-The chatbot currently takes between 40 to 50 seconds to generate the response. This is because the process mainly involves embedding 8-10 images from the local PC to the output response card.
+The chatbot currently takes between 40 to 50 seconds to generate the response. The bulk of the time involves embedding 8-10 images from the local PC to the output response card.
 
-The speed of the response depends on the number of pixels required to be embedded on the response card. Thus, there is a need to balance between providing a fast response and having sufficient visualisations to gain understandable insights on the impact caused by Covid-19.
+By observation, the speed of the response depends on the number of pixels required to be embedded on the response card. Thus, there is a need to balance between providing a fast response and having sufficient visualisations to gain understandable insights on the impact caused by Covid-19.
 
 ### Direct integration of detection algorithms
 
-Integrating the detection algorithms is a difficult task for the following reasons. 
+A direct integration of detection algorithms with the chatbot is a difficult task for the following reasons. 
 
 #### 1. Slower response time 
 
-In addition to responding to the card requests, direct integration will result in a longer time needed to pre-process raw images, and generate the detections and supporting diagrams.
+In addition to responding to the card requests, direct integration will result in a slower response as extra time is needed to generate the detections and supporting diagrams.
 
 #### 2. A robust architecture is needed to support multiple detection algorithms
 
