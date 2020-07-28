@@ -68,7 +68,7 @@ Finally, take your bot's access token and place it in your environment variable 
 pip install -r requirements.txt
 ```
 
-### Step 6: Run bot
+### Step 6: Run the bot
 
 We can now run the bot using the main python file ***test.py*.
 ```sh
