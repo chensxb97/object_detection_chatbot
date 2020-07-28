@@ -11,7 +11,7 @@ This project involves using object detection to analyse the changes in crowd, ve
   * [Step 3: Create your bot on Cisco Webex](#step-3-create-your-bot-on-cisco-webex)
   * [Step 4: Setup ngrok and env variables](#step-4-setup-ngrok-and-env-variables)
   * [Step 5: Other requirements](#step-5-other-requirements)
-  * [Step 6: Run the bot](#step6-run-the-bot)
+  * [Step 6: Run the bot](#step-6-run-the-bot)
 - [Features](#Features)
   * [Object detection feature](#object-detection-feature)
   * [Aerial object detection feature](#aerial-object-detection-feature)
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ### Step 6: Run the bot
 
-We can now run the bot using the main python file ***test.py*.
+We can now run the bot using the main python file ***test.py***.
 ```sh
 python ./test.py
 ```
