@@ -85,7 +85,7 @@ The **Object detection feature** is activated using the */detection* keyword com
 
 ![Screenshot](Screenshots/object_request.png)
 
-Once submitted, the bot will access the [shared](shared) directory to obtain the necessary pre-processed images and secondary data for analysis.
+Once submitted, the bot will access [shared](shared) to obtain the necessary pre-processed images and secondary data for analysis.
 
 Example **crowd** detection in **Shibuya** response:
 
