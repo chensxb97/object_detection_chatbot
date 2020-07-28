@@ -6,18 +6,19 @@ This project involves using object detection to analyse the changes in crowd, ve
 ## Table of Content
 - [Motivation](#motivation)
 - [Installation](#installation)
-  * [Step 1: Creating a virutal environment](#step-1--creating-a-virtual-environment)
+  * [Step 1: Creating a virtual environment](#step-1--creating-a-virtual-environment)
   * [Step 2: Install webexteamssdk](#step-2--install-webexteamssdk)
   * [Step 3: Create your bot on Cisco Webex](#step-3--create-your-bot-on-cisco-webex)
   * [Step 4: Setup ngrok and env variables](#step-4--setup-ngrok-and-env-variables)
-  * [Step 5: Run the bot](#step-5--run-the-bot)
+  * [Step 5: Other requirements](#step-5--other-requirements)
+  * [Step 6: Run the bot](#step-6--run-the-bot)
 - [Features](#features-)
   * [Object detection feature](#object-detection-feature)
   * [Aerial object detection feature](#aerial-object-detection-feature)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
   * [Accuracy](#accuracy)
   * [Speed](#speed)
-  * [Direct-integration of detection algorithms](#integration)
+  * [Direct-integration of detection algorithms](#direct-integration-of-detection-algorithms)
 - [Credits](#credits)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -61,7 +62,7 @@ export PORT=5000
 ```
 Finally, take your bot's access token and place it in your environment variable as WEBEX_TEAMS_ACCESS_TOKEN.
 
-### Step 5: Requirements.txt
+### Step 5: Other requirements
 
 ```sh
 pip install -r requirements.txt
@@ -69,7 +70,7 @@ pip install -r requirements.txt
 
 ### Step 6: Run bot
 
-We can now run the bot.
+We can now run the bot using the main python file ***test.py*.
 ```sh
 python ./test.py
 ```
