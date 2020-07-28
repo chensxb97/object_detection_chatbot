@@ -26,7 +26,7 @@ This project involves using object detection to analyse the changes in crowd, ve
 Given the impact this recent pandemic has had on our world, we decided to create a chatbot to help both the common public and decision makers alike through the features we have implemented.
 
 ## Installation
-The following dependencies need to be installed before running the chatbot. I managed to execute the chatbot using the Anaconda Prompt on Windows OS, but feel free to use Linux/Ubuntu whichever you prefer. The following are items this documentation assumes you already have installed: 
+The following dependencies need to be installed before running the chatbot. I managed to execute the chatbot using the Anaconda Prompt on Windows OS, but feel free to use Linux/Ubuntu whichever you prefer. You would need to have the following installed: 
 - virtualenv 
 - python3 
 - [ngrok](https://ngrok.com/download)
@@ -39,7 +39,7 @@ virtualenv venv
 source venv/bin/activate
 ```
 ### Step 2: Install webexteamssdk
-You now have your virtual environment set up. We next need the webexteamssdk module to run the chatbot in python.
+You now have your virtual environment set up. We will now need the webexteamssdk module to run the chatbot in python.
 
 ```sh
 pip install webexteamsssdk
