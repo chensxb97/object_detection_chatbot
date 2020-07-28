@@ -1,7 +1,7 @@
 ## Object_detection_chatbot
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project involves using object detection to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact of COVID-19. A database of pre-detected images is integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights.
+This project involves using object detection to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact of COVID-19. A database of pre-detected images is integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights. This project is an extension from [CiscoCovidBot-Final](https://github.com/shawnlim97/CiscoCovidBot-Final-).
 
 ## Table of Content
 - [Motivation](#motivation)
@@ -25,7 +25,7 @@ This project involves using object detection to analyse the changes in crowd, ve
 
 
 ## Motivation
-Given the impact this recent pandemic has had on our world, we decided to create a chatbot to help both the common public and decision makers alike through the features we have implemented.
+Given the impact this recent pandemic has had on our world, we decided to create a chatbot to help both the common public and decision makers alike through the features we have implemented. 
 
 ## Installation
 The following dependencies need to be installed before running the chatbot. I managed to execute the chatbot using the Anaconda Prompt on Windows OS, but feel free to use Linux/Ubuntu whichever you prefer. You would need to have the following installed: 
