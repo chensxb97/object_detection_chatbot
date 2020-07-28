@@ -1,21 +1,21 @@
 ## USAGE
 This folder contains the necessary detection files and data to pre-process images and videos prior to running the chatbot.
 
-## Detection files
+### Detection files
 
-***Detection algorithms***
+**Detection algorithms**
 
 1. aerial_plane_detection
 2. aerial_car_detection	
 3. traffic_object_detection
 
-***Image_processing***
+**Image_processing**
 
 1. concatenate_image.py
 2. resize_image.py
 3. video_to_image.py
 	
-## Images
+### Images
 
 1. Coronavirus (COVID-19) statistics data https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic/
 2. Plane passenger traffic data https://blueswandaily.com/data-spotlight-tokyo-haneda-airport/
@@ -25,27 +25,27 @@ This folder contains the necessary detection files and data to pre-process image
 6. haneda1.jpg https://www.axelspace.com/info/news/20190311/press_20190311/
 7. haneda2.png, Screenshot from https://code.earthengine.google.com/, Location: Haneda Airport
 
-## videos
+### videos
 
 1. highway_Shibuya.mp4 https://depositphotos.com/206670318/stock-video-aerial-view-highway-shibuya-tokyo.html/
 
 2. crossing_Shibuya.webm https://www.shutterstock.com/video/clip-1034411039-shibuya-tokyo-japan---aerial-view-pedestrians/
 
-## aerial
+### aerial
 
 Processed data to demonstrate Aerial Object Detection
 
-## traffic
+### traffic
 
 Processed data to demonstrate Traffic Object Detection
 
-## data
+### data
 
 Secondary data on Covid-19, road traffic congestion and flight passenger traffic
 
-## CREDITS
+## Credits
 
-***YOLOV3 by Adrian Rosebruck***
+**YOLOV3 by Adrian Rosebruck**
 1. Yolo Object Detection with OpenCV
 
 https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
@@ -54,11 +54,11 @@ https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
 
 https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
 
-***Bob Hammell, rhammell@github.com***
+**Bob Hammell, rhammell@github.com**
 
 1. Planesnet-detector, https://github.com/rhammell/planesnet-detector
 
-***Ibrahim, Andhrimnirr@github.com***
+**Ibrahim, Andhrimnirr@github.com**
 
 1. Pre-trained weights https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
 
