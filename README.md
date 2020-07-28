@@ -76,8 +76,8 @@ python ./test.py
 ```
 ## Features
 We will cover these additional features:
-* Object detection feature
-* Aerial object detection feature
+* Object detection 
+* Aerial object detection
 
 The first three features were previously covered [here](https://github.com/shawnlim97/CiscoCovidBot-Final-).
 ### Object detection feature
@@ -85,7 +85,7 @@ The **Object detection feature** is activated using the */detection* keyword com
 
 ![Screenshot](Screenshots/object_request.png)
 
-Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
+Once submitted, the bot will access the [shared](shared) directory to obtain the necessary pre-processed images and secondary data for analysis.
 
 Example **crowd** detection in **Shibuya** response:
 
