@@ -9,13 +9,13 @@ This folder contains the necessary detection files and data to pre-process image
 2. aerial_car_detection	
 3. traffic_object_detection
 
-#### Image_processing
+#### Image processing
 
 1. concatenate_image.py
 2. resize_image.py
 3. video_to_image.py
 	
-### Images
+### images
 
 1. Coronavirus (COVID-19) statistics data https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic/
 2. Plane passenger traffic data https://blueswandaily.com/data-spotlight-tokyo-haneda-airport/
