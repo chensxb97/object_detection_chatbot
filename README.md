@@ -6,7 +6,7 @@ This project involves using object detection to analyse the changes in crowd, ve
 ## Table of Content
 - [Motivation](#motivation)
 - [Installation](#installation)
-  * [Step 1: Creating a virtual environment](#step-1--creating-a-virtual-environment)
+  * [Step 1: Creating a virtual environment](#Step 1)
   * [Step 2: Install webexteamssdk](#step-2--install-webexteamssdk)
   * [Step 3: Create your bot on Cisco Webex](#step-3--create-your-bot-on-cisco-webex)
   * [Step 4: Setup ngrok and env variables](#step-4--setup-ngrok-and-env-variables)
@@ -33,7 +33,7 @@ The following dependencies need to be installed before running the chatbot. I ma
 - python3 
 - [ngrok](https://ngrok.com/download)
 
-### Step 1: Creating a virtual environment
+### Step 1: Creating a virtual environment 
 Initialize the virtual environment by running the following commands in your local terminal
 
 ```sh
