@@ -31,13 +31,13 @@ This folder contains the necessary detection files and data to pre-process image
 
 * crossing_Shibuya.webm https://www.shutterstock.com/video/clip-1034411039-shibuya-tokyo-japan---aerial-view-pedestrians/
 
-## aerial
-
-Processed data to demonstrate Aerial Object Detection
-
 ## traffic
 
-Processed data to demonstrate Traffic Object Detection
+Processed data to demonstrate Object detection feature
+
+## aerial
+
+Processed data to demonstrate Aerial object detection feature
 
 ## data
 
