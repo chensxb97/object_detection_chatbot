@@ -166,12 +166,12 @@ No single detection algorithm is able to perform detections on all types of imag
 
 ## Credits
 
-**CiscoDevNet's webexteamssdk** https://github.com/CiscoDevNet/webexteamssdk
+**CiscoDevNet's webexteamssdk**, https://github.com/CiscoDevNet/webexteamssdk
 
 **YOLOV3 by Adrian Rosebruck**
-1. Yolo Object Detection with OpenCV https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+1. Yolo Object Detection with OpenCV, https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
 
-2. OpenCV Social Distancing Detector https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
+2. OpenCV Social Distancing Detector, https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
 
 **Bob Hammell, rhammell@github.com**
 
@@ -179,8 +179,8 @@ No single detection algorithm is able to perform detections on all types of imag
 
 **Ibrahim, Andhrimnirr@github.com**
 
-1. Pre-trained weights https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
+1. Pre-trained weights, https://drive.google.com/file/d/1UWzucDKuuvtbyTJDjZ0qKtFATnPbp95H/view
 
-2. Aerial-Object-Detection-With-YOLO https://github.com/Andhrimnirr/Aerial-Object-Detection-With-Yolo
+2. Aerial-Object-Detection-With-YOLO, https://github.com/Andhrimnirr/Aerial-Object-Detection-With-Yolo
  
 
