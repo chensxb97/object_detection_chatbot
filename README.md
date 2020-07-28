@@ -104,7 +104,7 @@ The **Aerial object detection feature** is activated using the */aerial-detectio
 
 ![Screenshot](Screenshots/aerial_request.png)
 
-Once submitted, the bot will access the shared dir to obtain the necessary pre-processed images and secondary data for analysis.
+Once submitted, the bot will access [shared](shared) to obtain the necessary pre-processed images and secondary data for analysis.
 
 Example of aerial **planes** detection in **Haneda** response:
 
@@ -185,4 +185,3 @@ No single detection algorithm is able to perform detections on all types of imag
 
 * Aerial-Object-Detection-With-YOLO, https://github.com/Andhrimnirr/Aerial-Object-Detection-With-Yolo
  
-
