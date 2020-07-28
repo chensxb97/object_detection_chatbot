@@ -18,6 +18,7 @@ This project involves using object detection to analyse the changes in crowd, ve
   * [Accuracy](#accuracy)
   * [Speed](#speed)
   * [Direct-integration of detection algorithms](#integration)
+- [Credits](#credits)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -162,5 +163,7 @@ In addition to responding to the card requests, direct integration will result i
 #### 2. A robust architecture is needed to support multiple detection algorithms
 
 No single detection algorithm is able to perform detections on all types of images accurately. Due to the high complexity, I was unable to merge the detection algorithms or embed them in the main chatbot python file. More research has to be done to determine the feasibility of this approach.
+
+## Credits
 
 
