@@ -125,7 +125,7 @@ Due to the shortage of time, the current bot is not built to run detections auto
 ### Accuracy
 The following aspects can be reviewed to increase the accuracy of the detection algorithms on traffic-camera view images.
 
-#### 1. Limited viewing angles and zoom
+#### 1. Accomodating multiple viewing angles and zoom
 
 The Yolov3 detection algorithm utilised in this project is best used for images that are framed at specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
 
@@ -135,7 +135,7 @@ During my research, I discovered that using homography such as OpenCV's [Perspec
 
 *An attempt to transform the video frame (left) to a more analytical perspective (right) where each overlapping circle indicates a violation of social distancing.* 
 
-#### 2. False Negatives
+#### 2. Reducing false negatives
 
 The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects whenever there is severe overcrowding.
 
