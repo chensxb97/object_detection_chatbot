@@ -15,6 +15,7 @@ This project involves using object detection to analyse the changes in crowd, ve
 - [Features](#Features)
   * [Object detection feature](#object-detection-feature)
   * [Aerial object detection feature](#aerial-object-detection-feature)
+- [Potential Applications](#potential-applications)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
   * [Accuracy](#accuracy)
   * [Speed](#speed)
@@ -117,6 +118,20 @@ Example of aerial **planes** detection in **Haneda** response:
 ![Screenshot](Screenshots/plane_analysis.png)
 
 *Passenger traffic and Covid-19 data analysis*
+
+## Potential Applications
+
+#### 1. Measuring the performance of lockdown and other contingency measures
+
+Object detection analysis allows us to draw **patterns** in urban features such as people, vehicle and flight movements. This additional data can be used as a performance measure for existing contingency measures, alongside COVID-19 data like trends on new cases, deaths and infection rate.
+
+#### 2. Social-distancing enforcement
+
+In addition to counting the number of people detected within the vicinity, the social-distancing detector can also identify social-distancing violations by highlighting them in red. This feature can be useful for policing social-distancing. Just like studying the number of vacancies available at a place of interest, users can choose to avoid locations that are too crowded. If integrated with surveillance cameras, enforcement agencies can be alerted of the locations to disperse those crowds. 
+
+#### 3. Identifying appropriate times to roll out contingency measures
+
+The effectiveness of enforcement measures to curb the spread of infections, though depends on how each measure is executed, also depends on the appropriate timing. Countries like South Korea and Australia went into relapse as they lifted lockdown measures too early. Enforcing lockdowns too early can be more detrimental to the country's economy and standard of living. By drawing patterns between the object detection analysis and performance analysis of present lockdown measures, we can pinpoint the range of suitable times that enforcement efforts work the most effectively. Thus, should a country undergo similar challenging times such as a pandemic or a relapse, government and healthcare enforcement agencies can initiate these measures at the best times to mitigate the spread of infections.
 
 ## Limitations and Future Improvements
 
