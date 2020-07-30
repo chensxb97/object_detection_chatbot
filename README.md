@@ -137,10 +137,10 @@ The effectiveness of enforcement measures to curb the spread of infections, thou
 
 Due to the shortage of time, the current bot is not built to run detections automatically on new images. Currently, this is a proof of concept demonstrated using pre-processed images. The following areas can be improved to improve the useability of the object detection features. 
 
-### 1. Accuracy
+### Accuracy
 The following aspects can be reviewed to increase the accuracy of the detection algorithms on traffic-camera view images.
 
-#### * Accomodating multiple viewing angles and zoom
+#### 1. Accomodating multiple viewing angles and zoom
 
 The Yolov3 detection algorithm utilised in this project is best used for images that are framed at specific angles and zoom. To accommodate traffic-camera view images and footage taken at multiple viewing points, we have to transform the images to a fixed viewing angle to conduct consistent analysis.
 
@@ -150,7 +150,7 @@ During my research, I discovered that using homography such as OpenCV's [Perspec
 
 *An attempt to transform the video frame (left) to a more analytical perspective (right) where each overlapping circle indicates a violation of social distancing.* 
 
-#### * Reducing false negatives
+#### 2. Reducing false negatives
 
 The biggest flaw of the Yolov3 algorithm is that it is unable to identify objects whenever there is severe overcrowding.
 
@@ -162,21 +162,21 @@ Below are some examples that illustrate this problem. Re-training the model with
 
 *False negatives are observed due to the problem of overcrowding.*
 
-### 2. Speed
+### Speed
 
 The chatbot currently takes between 40 to 50 seconds to generate the response. The bulk of the time involves embedding 8-10 images from the local PC to the output response card.
 
 By observation, the speed of the response depends on the number of pixels required to be embedded on the response card. Thus, there is a need to balance between providing a fast response and having sufficient visualisations to gain understandable insights on the impact caused by Covid-19.
 
-### 3. Direct integration of detection algorithms
+### Direct integration of detection algorithms
 
 A direct integration of detection algorithms with the chatbot is a difficult task for the following reasons. 
 
-#### * Slower response time 
+#### 1. Slower response time 
 
 In addition to responding to the card requests, direct integration will result in a slower response as extra time is needed to generate the detections and supporting diagrams.
 
-#### * A robust architecture is needed to support multiple detection algorithms
+#### 2. A robust architecture is needed to support multiple detection algorithms
 
 No single detection algorithm is able to perform detections on all types of images accurately. Due to the high complexity, I was unable to merge the detection algorithms or embed them in the main chatbot python file. More research has to be done to determine the feasibility of this approach.
 
