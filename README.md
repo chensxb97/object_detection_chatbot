@@ -1,7 +1,7 @@
 ## Object_detection_chatbot
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project involves using object detection to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact of COVID-19. A database of pre-detected images is integrated with a Webex Teams Chatbot which aims to educate and inform the public on COVID-19 related insights. This project is an extension from [CiscoCovidBot-Final](https://github.com/shawnlim97/CiscoCovidBot-Final-).
+This project involves using object detection to analyse the changes in crowd, vehicle and flight traffic on traffic-camera and aerial images to understand the urban impact of COVID-19. A database of pre-detected images is integrated with a Webex Teams chatbot which aims to educate and inform the public on COVID-19 related insights. This project is an extension from [CiscoCovidBot-Final](https://github.com/shawnlim97/CiscoCovidBot-Final-). You may refer to this repository to understand the main features and system architecture.
 
 ## Table of Content
 - [Motivation](#motivation)
